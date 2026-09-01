@@ -1,0 +1,11 @@
+node_modules
+.idea
+.env
+.env.*
+
+# Runtime SQLite database (regenerated/seeded automatically by db.js)
+data/kasa.sqlite3
+
+# User-uploaded files (generated at runtime, not source)
+public/uploads/*
+!public/uploads/.gitkeep
